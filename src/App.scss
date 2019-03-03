@@ -1,0 +1,61 @@
+* {
+  user-select: none;
+  outline: none;
+}
+
+body {
+  background-color: #61dafb;
+}
+
+.App-Container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 85px;
+}
+
+.App-Header {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+.App-Strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+}
+
+.App-Drawer {
+  position: absolute;
+  left: -80vw;
+  top: 0;
+  width: 80vw;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.Word-Box {
+  min-width: 300px;
+  min-height: 200px;
+  width: 100%;
+  background-color: blanchedalmond;
+  color: black;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.Word-Set {
+  cursor: pointer;
+
+  // &:hover {
+  //   background-color: whitesmoke;
+  // }
+}
